@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+package-lock.json
+
+# environment variables
+.env
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# uploads folder (for local development)
+public/uploads/*
+!public/uploads/.gitkeep
